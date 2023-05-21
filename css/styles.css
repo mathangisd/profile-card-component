@@ -39,7 +39,9 @@ body {
     font-weight: 400;
     line-height: 1.75;
     color:  var(--very-dark-desaturated-blue);
+    
 }
+
 
 p {margin-bottom: 1rem;}
 
@@ -113,7 +115,7 @@ Card
 
 .card {
     max-width: 400px;
-    max-height: 500px;
+    max-height: 400px;
     height: 100%;
     width: 90%;
     background-color: hsl(0, 0%, 100%);
@@ -152,7 +154,7 @@ Card
     justify-self: center;
     align-self: center;
     display: grid;
-    margin-top: 1rem;
+    margin-top: 2.5rem;
 
 }
 
