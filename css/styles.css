@@ -17,7 +17,6 @@
     --dark-grayish-blue: hsl(227, 10%, 46%);
 
     /* neutral */
-
     --dark-gray: hsl(0, 0%, 59%);
     --dark-gray-1:hsla(0, 0%, 59%, 0.2);
     --white: hsla(0, 0%, 100%, 0.9);
@@ -27,14 +26,11 @@
 html {font-size: 112.5%;} /*18px*/
 
 body {
-    /* background-image: url("/images/bg-pattern-top.svg") ;
-    background-position: top 55% left -45%;
-    background-repeat: no-repeat; */
-    /* background-position: bottom 175% right -15%;
-    background-repeat: no-repeat;
-    background-image: url("/images/bg-pattern-bottom.svg") ; */
-    background:  top 55% left -45% no-repeat url("/images/bg-pattern-top.svg"), var(--dark-cyan) bottom 175% right -55% no-repeat url("/images/bg-pattern-bottom.svg");
-   
+
+    background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: bottom 50vh right 50vw, top 50vh left 50vw;
+    background-color: var(--dark-cyan);
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: 400;
     line-height: 1.75;
@@ -98,6 +94,11 @@ small, .text-small {font-size: 0.8rem;}
     object-fit: contain;
 }
 
+footer {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
 /* 
 ==================================
 Card
@@ -110,14 +111,13 @@ Card
     justify-items: center;
     align-items: center;
     margin-top: 2rem;
-    
 }
 
 .card {
     max-width: 400px;
-    max-height: 400px;
+    max-height: 450px;
     height: 100%;
-    width: 90%;
+    width: 100%;
     background-color: hsl(0, 0%, 100%);
     display: grid;
     grid-template-rows: 1fr 1fr auto;
@@ -133,7 +133,6 @@ Card
 
 .profile-container{
     position: relative;
-    /* border: 2px solid green; */
     display: grid;
     border-bottom: 2px solid var(--dark-gray-1);
     margin-bottom: 1rem;
@@ -150,35 +149,27 @@ Card
 }
 
 .profile {
-    /* border: 2px solid red; */
     justify-self: center;
     align-self: center;
     display: grid;
     margin-top: 2.5rem;
-
 }
 
 .profile p {
     margin-bottom: 0;
 }
 
-/* .profile-name-age {
-    display: flex;
-    border: 2px solid orange;
-} */
-
 .profile .city {
     display: flex;
     justify-content: space-around;
-    /* border: 2px solid rgb(0, 255, 255); */
     color: var(--dark-gray);
 }
 
 .profile .name {
     font-weight: 700;
-        font-size: 1.25rem;
-
+    font-size: 1.25rem;
 }
+
 .profile .age  {
     color: var(--dark-gray);
     font-size: 1.25rem;
@@ -187,12 +178,6 @@ Card
 
 .profile .city {
     color: var(--dark-gray);
-}
-
-
-.underline {
-    border-top: 2px solid var(--dark-gray);
-    background-color: red;
 }
 
 .stats {
