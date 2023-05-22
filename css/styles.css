@@ -114,7 +114,7 @@ Card
 }
 
 .card {
-    max-width: 400px;
+    max-width: 375px;
     max-height: 450px;
     height: 100%;
     width: 100%;
@@ -171,9 +171,9 @@ Card
 }
 
 .profile .age  {
-    color: var(--dark-gray);
+    color: var(--dark-grayish-blue);
     font-size: 1.25rem;
-    margin-left: 1rem;
+    margin-left: 0.5rem;
 }
 
 .profile .city {
@@ -198,6 +198,6 @@ Card
 }
 
 .stat-name {
-    color: var(--dark-grayish-blue);
+    color: var(--dark-gray);
     font-size: 0.65rem;
 }
