@@ -13,7 +13,6 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -50,20 +49,15 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 - Semantic HTML5 markup
 - CSS custom properties
 - CSS Grid
-- CSS Flexbox
-- 
+- CSS Flexbox 
 
 ### What I learned
 
-I was able to practice grid and flexbox properties. I was also able to learn background properties and how to place an image in the center of q card.
+I was able to practice grid and flexbox properties. I was also able to learn background properties and how to place an image in the center of a card.
 
 ### Continued-Development
 
 I would like to keep working on other projects that involve different responsive layouts.
-
-### Useful resources
-
-- [Responsive Grid](https://travishorn.com/responsive-grid-in-2-minutes-with-css-grid-layout-4842a41420fe) by Travis Horn
 
 ## Author
 - Website - [Mathangi Subramanian](https://github.com/mathangisd)
