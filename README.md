@@ -41,7 +41,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 - Solution URL : [Git URL](https://github.com/mathangisd/profile-card-component.git)
 
-- Live URL : [3 Column Preview Card Component on Netlify](https://3column-preview-msd.netlify.app/)
+- Live URL : [Profile Card Component on Netlify](https://profile-card-msd.netlify.app/)
 
 
 ## My process
